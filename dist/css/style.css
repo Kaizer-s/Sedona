@@ -92,7 +92,7 @@ body {
   font-family: "PT Sans";
   font-weight: 700;
   min-height: 100%;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0px auto;
 }
 
@@ -116,25 +116,35 @@ header {
 }
 
 .header-nav__item.header-nav__item_logo {
-  width: 140px;
-  height: 70px;
+  width: 14%;
 }
 
 .header-nav__item.header-nav__item_left {
   padding-top: 22px;
-  padding-bottom: 22px;
-  padding-left: 72px;
+  padding-left: 64px;
+  padding-right: 60px;
+  width: 21.25%;
 }
 
-.header-nav__item.header-nav__item_center {
+.header-nav__item.header-nav__item_left-center {
   padding-top: 22px;
-  padding-bottom: 22px;
+  padding-left: 64px;
+  padding-right: 32px;
+  width: 21.25%;
+}
+
+.header-nav__item.header-nav__item_right-center {
+  padding-top: 22px;
+  padding-left: 64px;
+  padding-right: 30px;
+  width: 21.25%;
 }
 
 .header-nav__item.header-nav__item_right {
   padding-top: 22px;
-  padding-right: 72px;
-  padding-bottom: 22px;
+  padding-left: 64px;
+  padding-right: 60px;
+  width: 21.25%;
 }
 
 .link {
@@ -159,9 +169,7 @@ header {
 
 .home-page__white-line {
   background: url("../img/polygon.svg") center no-repeat;
-  height: 60px;
-  position: relative;
-  top: 2px;
+  padding-top: 48px;
 }
 
 .home-page__white {
@@ -187,14 +195,19 @@ header {
 }
 
 .photo {
-  height: 33.33%;
   display: flex;
   justify-content: space-between;
+  height: 256px;
+}
+
+.photo__bg {
+  background-image: url("../img/photo__bg.png");
+  width: 70%;
 }
 
 .photo__right.photo__right_blue {
   background-color: #81B4D3;
-  width: 33.4%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -202,7 +215,7 @@ header {
 
 .photo__left.photo__left_blue {
   background-color: #81B4D3;
-  width: 33.4%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -233,7 +246,6 @@ header {
 
 .advantage__base {
   height: 330px;
-  /* не смог убрать высоту */
   display: flex;
 }
 
@@ -310,8 +322,8 @@ header {
 .question__title {
   font-size: 28px;
   text-align: center;
-  padding-top: 58px;
   padding-bottom: 26px;
+  padding-top: 16px;
 }
 
 .question__subtitle {
@@ -332,7 +344,7 @@ header {
 }
 
 .form__base {
-  width: 47%;
+  width: 580px;
   margin: 0 auto;
   position: relative;
   margin-top: -86px;
@@ -467,7 +479,7 @@ header {
 }
 
 .footer {
-  padding: 0 72px;
+  padding-left: 72px;
   background-color: rgba(255, 255, 255, 0.7);
   max-height: 100%;
   display: flex;
@@ -481,12 +493,12 @@ header {
   line-height: 28px;
   font-weight: 700;
   padding-top: 30px;
-  width: 33.33%;
+  width: 44%;
 }
 
 .footer__icons {
   display: flex;
-  width: 33.33%;
+  width: 28%;
 }
 
 .footer__icons.footer__icons_left {
@@ -495,7 +507,6 @@ header {
   margin-top: 36px;
   margin-right: 6px;
   padding: 17px 14px 16px 15px;
-  /*Можно ли так оставить, если все 4 значения разные?*/
 }
 
 .footer__icons.footer__icons_center {
@@ -516,7 +527,8 @@ header {
 
 .footer__html-academy {
   display: flex;
-  width: 33.33%;
+  width: 28%;
+  padding-left: 20px;
 }
 
 .footer__text {
@@ -556,4 +568,54 @@ address {
 
 .footer__icons.footer__icons_right:hover {
   background-color: #94c1dd;
+}
+
+@media (max-width: 1023px) {
+  .header-nav__item.header-nav__item_logo {
+    width: 14%;
+    margin: 0 auto;
+  }
+
+  .header-nav__item.header-nav__item_left {
+    display: none;
+  }
+
+  .header-nav__item.header-nav__item_left-center {
+    display: none;
+  }
+
+  .header-nav__item.header-nav__item_right-center {
+    display: none;
+  }
+
+  .header-nav__item.header-nav__item_right {
+    display: none;
+  }
+
+  .photo__right.photo__right_blue {
+    background-color: #81B4D3;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .photo__subtitle {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 26px;
+  }
+
+  .photo__text {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 65px;
+    font-weight: 400;
+    padding-right: 12px;
+    padding-top: 26px;
+  }
 }

@@ -14,25 +14,35 @@ header{
 }
 
 .header-nav__item.header-nav__item_logo{
-    width: 140px;
-    height: 70px;
+    width: 14%;
 }
 
 .header-nav__item.header-nav__item_left{
     padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 72px;
+    padding-left: 64px;
+    padding-right: 60px;
+    width: 21.25%;
 }
 
-.header-nav__item.header-nav__item_center{
+.header-nav__item.header-nav__item_left-center{
     padding-top: 22px;
-    padding-bottom: 22px;
+    padding-left: 64px;
+    padding-right: 32px;
+    width: 21.25%;
+}
+
+.header-nav__item.header-nav__item_right-center{
+    padding-top: 22px;
+    padding-left: 64px;
+    padding-right: 30px;
+    width: 21.25%;
 }
 
 .header-nav__item.header-nav__item_right{
     padding-top: 22px;
-    padding-right: 72px;
-    padding-bottom: 22px;
+    padding-left: 64px;
+    padding-right: 60px;
+    width: 21.25%;
 }
 
 .link{
