@@ -45,6 +45,17 @@ header{
     width: 21.25%;
 }
 
+.burger{
+    display: none;
+}
+
+.burger-line{
+    width: 32px;
+    height: 4px;
+    background-color: black;
+    margin: 6px 0;
+}
+
 .link{
     padding: 10px;
     color:black;

@@ -15,12 +15,13 @@
 
 .home-page__white-line{
     background: url("../img/polygon.svg") center no-repeat;
-    padding-top: 48px;
+    padding-top: 38px;
 }
 
 .home-page__white{
     background-color: white;
-    padding: 55px;
+    margin-top: -1px;
+    padding: 56px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,8 +47,13 @@
     height: 256px;
 }
 
-.photo__bg{
+.photo__bg.photo__bg_right{
     background-image: url("../img/photo__bg.png");
+    width: 70%;
+}
+
+.photo__bg.photo__bg_left{
+    background-image: url("../img/photo__bg-2.png");
     width: 70%;
 }
 
