@@ -1,5 +1,6 @@
 .footer{
-    padding-left:72px;
+    padding-left:92px;
+    padding-right:20px;
     background-color: rgba(255, 255, 255, 0.7);
     max-height: 100%;
     display: flex;
@@ -21,7 +22,7 @@
     width: 28%;
 }
 
-.footer__icons.footer__icons_left{
+.footer__icons_left{
     width: 90%;
     background-color: $blue-color;
     margin-top: 36px;
@@ -29,7 +30,7 @@
     padding: 17px 14px 16px 15px;     
 }
 
-.footer__icons.footer__icons_center{
+.footer__icons_center{
     width: 90%;
     background-color: $blue-color;
     margin-top: 36px;
@@ -37,7 +38,7 @@
     padding: 13px 17px;
 }
 
-.footer__icons.footer__icons_right{
+.footer__icons_right{
     width: 90%;
     background-color: $blue-color;
     margin-top: 36px;
@@ -47,8 +48,8 @@
 
 .footer__html-academy{
     display: flex;
-    width: 28%;
-    padding-left: 20px;
+    width: 32%;
+    padding-left: 40px;
 }
 
 .footer__text{
@@ -60,147 +61,4 @@
 .footer__logo{
     padding-top: 39px;
     color: red;
-}
-
-@media (max-width: 1024px){
-    .header-nav__item.header-nav__item_logo{
-        width: 14%;
-        margin: auto;
-    }
-
-    .header-nav__item.header-nav__item_left{
-        display: none;
-    }
-
-    .header-nav__item.header-nav__item_left-center{
-        display: none;
-    }
-
-    .header-nav__item.header-nav__item_right-center{
-        display: none;
-    }
-
-    .header-nav__item.header-nav__item_right{
-        display: none;
-    }
-    
-    .burger{
-        display: block;
-        position: relative;
-        padding-bottom:8px;
-        margin-top: -46px;
-        padding-left: 26px;
-    }
-
-    .photo__subtitle{
-        font-size: 14px;
-        color: white;
-        text-align: center;
-        font-weight: 400;
-        padding-top:26px
-    }
-
-    .photo__text{
-        font-size: 14px;
-        color: white;
-        text-align: center;
-        line-height: 20px;
-        padding-bottom:65px;
-        font-weight: 400;
-        padding-right:12px;
-        padding-top:26px;
-    }
-
-}
-
-@media (max-width: 768px){
-    .header-nav__item.header-nav__item_logo{
-        width: 18%;
-        margin: auto;
-    }
-
-    .footer{
-        padding-left:72px;
-        background-color: rgba(255, 255, 255, 0.7);
-        max-height: 100%;
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        margin-top:-120px;
-    }
-
-    .footer__html-academy{
-        display: flex;
-        width: 33.33%;
-        padding-left: 1px;
-        padding-top: 6px;
-    }
-
-    .footer__icons{
-        display: flex;
-        padding-top: 8px;
-        width: 28%;
-    }
-
-    .footer__data{
-        font-size: 18px;
-        line-height: 24px;
-        font-weight: 700;
-        padding-top: 44px;
-        margin-left: -40px;
-        width: 33.33%;
-    }
-
-    .photo__right.photo__right_blue{
-        background-color: $blue-color;
-        width: 38%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .photo__left.photo__left_blue{    //перенос текста
-        background-color: $blue-color;
-        width: 38%;    
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .advantage__title{
-        font-size: 21px;
-        text-align: center;
-    }
-
-    .advantage__subtitle{
-        padding-bottom: 85px;
-        text-align: center;
-        line-height: 21px;
-        font-size: 15px;   //font-size
-        color: $gray-text-color;
-        font-weight: 400;
-    }
-
-    .text-block__title{
-        font-size: 21px;
-        text-align: center;
-        padding-top: 46px;
-        padding-bottom: 15px;
-    }
-    
-    .text-block__subtitle{
-        font-size: 14px;
-        text-align: center;
-        font-weight: 400;
-    }
-    
-    .text-block__text{
-        font-size: 13px;
-        text-align: center;
-        line-height: 20px;
-        padding-top: 15px;
-        padding-bottom: 65px;
-        font-weight: 400;
-        color: $gray-text-color;
-    }
 }

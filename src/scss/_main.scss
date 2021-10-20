@@ -1,5 +1,5 @@
 .home-page{
-    background: url("../img/main.jpg");
+    background: url("../img/main.jpg") no-repeat;
     max-height: 100%;
     display: flex;
     flex-direction: column;
@@ -47,17 +47,17 @@
     height: 256px;
 }
 
-.photo__bg.photo__bg_right{
+.photo__bg_right{
     background-image: url("../img/photo__bg.png");
     width: 70%;
 }
 
-.photo__bg.photo__bg_left{
+.photo__bg_left{
     background-image: url("../img/photo__bg-2.png");
     width: 70%;
 }
 
-.photo__right.photo__right_blue{
+.photo__right_blue{
     background-color: $blue-color;
     width: 35%;
     display: flex;
@@ -65,7 +65,7 @@
     justify-content: space-between;
 }
 
-.photo__left.photo__left_blue{
+.photo__left_blue{
     background-color: $blue-color;
     width: 35%;
     display: flex;
@@ -80,14 +80,30 @@
     padding-top: 46px;
 }
 
-.photo__subtitle{
+.photo__subtitle_left{
     font-size: 14px;
     color: white;
     text-align: center;
     font-weight: 400;
 }
 
-.photo__text{
+.photo__subtitle_right{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.photo__text_left{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom:65px;
+    font-weight: 400;
+}
+
+.photo__text_right{
     font-size: 14px;
     color: white;
     text-align: center;
@@ -105,19 +121,22 @@
     width: 33.33%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .advantage__icon{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 75px;
+    width: 76px;
     padding-top: 60px;
+    margin-bottom: 80px;
 }
 
 .advantage__title{
     font-size: 21px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .advantage__subtitle{
@@ -138,7 +157,6 @@
 .text-block__list{
     width: 33.33%;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -267,23 +285,23 @@
     justify-content: space-between;
 }
 
-.form__text.form__text_down{
+.form__text_down{
     display: flex;
     justify-content: space-between;
     width: 49.2%;
 }
 
-.form__two-title.form__two-title_left{
+.form__two-title_left{
     padding-right: 21px;
     line-height: 38px;
 }
 
-.form__two-title.form__two-title_right{
+.form__two-title_right{
     padding-left: 44px;
     line-height: 38px;
 }
 
-.form__title.form__title_change{
+.form__title_change{
     padding-left: 16px;
 }
 
@@ -297,7 +315,7 @@
     justify-content: space-between;
 }
 
-.form__title.form__title_change{
+.form__title_change{
     padding-top: 1px;
 }
 
