@@ -344,6 +344,8 @@ header {
   line-height: 20px;
   padding-top: 25px;
   padding-bottom: 65px;
+  padding-right: 4px;
+  padding-left: 4px;
   font-weight: 400;
   color: #474747;
 }
@@ -470,7 +472,18 @@ header {
   padding-left: 16px;
 }
 
-.form__change {
+.form__change-1 {
+  width: 114px;
+  /* ширина */
+  background-color: #F2F2F2;
+  text-align: left;
+  line-height: 38px;
+  padding-left: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__change-2 {
   width: 114px;
   /* ширина */
   background-color: #F2F2F2;
@@ -755,5 +768,308 @@ address {
     padding-top: 54px;
     padding-bottom: 52px;
     padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-nav__item_logo {
+    width: 18%;
+    margin: auto;
+  }
+
+  .footer {
+    padding-left: 52px;
+    padding-right: 52px;
+    background-color: rgba(255, 255, 255, 0.7);
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -120px;
+  }
+
+  .footer__icons {
+    display: flex;
+  }
+
+  .footer__icons_left {
+    width: 90%;
+    background-color: #81B4D3;
+    margin-top: 36px;
+    margin-right: 6px;
+    padding: 17px 14px 16px 15px;
+  }
+
+  .footer__data {
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 700;
+    padding-top: 30px;
+    width: 50%;
+    padding-bottom: 36px;
+  }
+
+  .footer__html-academy {
+    display: none;
+    width: 50%;
+    padding-left: 120px;
+  }
+
+  .home-page__white-line {
+    background: url("../img/polygon.svg") center no-repeat;
+    padding-top: 36px;
+  }
+
+  .photo__text_left {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 65px;
+    font-weight: 400;
+    padding-right: 8px;
+    padding-top: 26px;
+  }
+
+  .photo__text_right {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 65px;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 22px;
+  }
+
+  .photo__right_blue {
+    background-color: #81B4D3;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .photo__left_blue {
+    background-color: #81B4D3;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 706px) {
+  .home-page__white-line {
+    background: url("../img/polygon.svg") center no-repeat;
+    padding-top: 34px;
+  }
+}
+
+@media (max-width: 664px) {
+  .home-page__white-line {
+    background: url("../img/polygon.svg") center no-repeat;
+    padding-top: 32px;
+  }
+
+  .header-nav__item_logo {
+    width: 22%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 622px) {
+  .home-page__white-line {
+    background: url("../img/polygon.svg") center no-repeat;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-nav__item_logo {
+    width: 24%;
+    margin: auto;
+  }
+
+  .photo__right_blue {
+    background-color: #81B4D3;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .photo__left_blue {
+    background-color: #81B4D3;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .form__base {
+    width: 540px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -86px;
+    box-shadow: 0px 5px 15px 7px rgba(0, 0, 0, 0.1);
+  }
+
+  .form__text-line {
+    width: 330px;
+    background-color: #F2F2F2;
+    text-align: left;
+    line-height: 38px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__change-1 {
+    width: 114px;
+    margin-left: 18px;
+    margin-right: -10px;
+    background-color: #F2F2F2;
+    text-align: left;
+    line-height: 38px;
+    padding-left: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__change-2 {
+    width: 128px;
+    margin-left: 24px;
+    background-color: #F2F2F2;
+    text-align: left;
+    line-height: 38px;
+    padding-left: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__button {
+    height: 58px;
+    width: 91.2%;
+    background-color: #81B4D3;
+    color: white;
+    text-align: center;
+    line-height: 58px;
+    font-size: 21px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 578px) {
+  .home-page__white-line {
+    background: url("../img/polygon.svg") center no-repeat;
+    padding-top: 27px;
+  }
+}
+
+@media (max-width: 555px) {
+  .home-page__white-line {
+    background: url("../img/polygon.svg") center no-repeat;
+    padding-top: 27px;
+  }
+
+  .form__base {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -86px;
+    box-shadow: 0px 5px 15px 7px rgba(0, 0, 0, 0.1);
+  }
+
+  .form__text-line {
+    width: 300px;
+    background-color: #F2F2F2;
+    text-align: left;
+    line-height: 38px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__change-1 {
+    width: 90px;
+    margin-right: 0px;
+    background-color: #F2F2F2;
+    text-align: left;
+    line-height: 38px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__change-2 {
+    width: 100px;
+    background-color: #F2F2F2;
+    text-align: left;
+    line-height: 38px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__button {
+    height: 58px;
+    width: 91.2%;
+    background-color: #81B4D3;
+    color: white;
+    text-align: center;
+    line-height: 58px;
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  .footer {
+    padding-left: 42px;
+    padding-right: 52px;
+    background-color: rgba(255, 255, 255, 0.7);
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -120px;
+  }
+
+  .footer__data {
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 700;
+    padding-top: 30px;
+    width: 90%;
+    padding-bottom: 36px;
+  }
+
+  .advantage__subtitle {
+    padding-bottom: 85px;
+    text-align: center;
+    line-height: 21px;
+    font-size: 13px;
+    color: #474747;
+    font-weight: 400;
+  }
+
+  .text-block__text {
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 25px;
+    padding-bottom: 65px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 400;
+    color: #474747;
+  }
+}
+
+@media (max-width: 555px) and (max-width: 514px) {
+  .home-page__white-line {
+    background: url("../img/polygon.svg") center no-repeat;
+    padding-top: 25px;
+  }
+
+  .header-nav__item_logo {
+    width: 26%;
+    margin: auto;
   }
 }

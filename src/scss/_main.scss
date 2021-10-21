@@ -179,6 +179,8 @@
     line-height: 20px;
     padding-top: 25px;
     padding-bottom: 65px;
+    padding-right:4px;
+    padding-left:4px;
     font-weight: 400;
     color: $gray-text-color;
 }
@@ -305,7 +307,17 @@
     padding-left: 16px;
 }
 
-.form__change{
+.form__change-1{
+    width: 114px;  /* ширина */
+    background-color: #F2F2F2;
+    text-align: left;
+    line-height: 38px;
+    padding-left: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__change-2{
     width: 114px;  /* ширина */
     background-color: #F2F2F2;
     text-align: left;
