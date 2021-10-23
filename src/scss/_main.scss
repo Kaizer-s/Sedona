@@ -259,7 +259,17 @@
     line-height: 38px;
 }
 
-.form__text-line{
+.form__text-line_top{
+    width: 346px;
+    background-color: #F2F2F2;
+    text-align: left;
+    line-height: 38px;
+    padding-left: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__text-line_bottom{
     width: 346px;
     background-color: #F2F2F2;
     text-align: left;
@@ -307,22 +317,23 @@
     padding-left: 16px;
 }
 
+
 .form__change-1{
-    width: 114px;  /* ширина */
+    width: 114px;
     background-color: #F2F2F2;
     text-align: left;
     line-height: 38px;
-    padding-left: 23px;
+    padding-left: 20px;
     display: flex;
     justify-content: space-between;
 }
 
 .form__change-2{
-    width: 114px;  /* ширина */
+    width: 114px;
     background-color: #F2F2F2;
     text-align: left;
     line-height: 38px;
-    padding-left: 23px;
+    padding-left: 20px;
     display: flex;
     justify-content: space-between;
 }
