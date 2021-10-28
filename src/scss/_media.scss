@@ -272,12 +272,14 @@
     }
 }
 
-@media (max-width: 706px){
+@media (max-width: 715px){
     .home-page__white-line{
         background: url("../img/polygon.svg") center no-repeat;
         padding-top: 34px;
     }
+}
 
+@media (max-width: 706px){
     .footer__html-academy{
         display: flex;
         width: 40%;
@@ -287,6 +289,22 @@
 
     .footer__icons{
         padding-left: 16px;
+    }
+
+    .advantage__base{
+        height: 330px;       
+        display: flex;
+        padding-right: 12px;
+    }
+
+    .advantage__subtitle{
+        padding-bottom: 85px;
+        text-align: center;
+        line-height: 21px;
+        font-size: 14px;
+        color: $gray-text-color;
+        font-weight: 400;
+        padding-left:12px;
     }
 }
 
@@ -320,7 +338,7 @@
     
 }
 
-@media (max-width: 622px){
+@media (max-width: 632px){
     .home-page__white-line{
         background: url("../img/polygon.svg") center no-repeat;
         padding-top: 30px;
@@ -410,10 +428,41 @@
     }
 }
 
-@media (max-width: 578px){
+@media (max-width: 580px){
     .home-page__white-line{
         background: url("../img/polygon.svg") center no-repeat;
-        padding-top: 27px;
+        padding-top: 28px;
+    }
+
+    .footer__icons{
+        display: flex;
+        padding-bottom: 24px;
+        padding-left: 0;
+
+    }
+
+    .footer__icons_left{
+        width: 90%;
+        background-color: $blue-color;
+        margin-top: 36px;
+        margin-right: 6px;
+        padding: 17px 14px 16px 15px;     
+    }
+    
+    .footer__icons_center{
+        width: 90%;
+        background-color: $blue-color;
+        margin-top: 36px;
+        margin-right: 6px;
+        padding: 13px 17px;
+    }
+    
+    .footer__icons_right{
+        width: 90%;
+        background-color: $blue-color;
+        margin-top: 36px;
+        margin-right: 6px;
+        padding: 16px 13px;
     }
     
 }
@@ -714,7 +763,7 @@
         padding-bottom: 90px;
         padding-left: 35px;
     }
-    
+
 }
 
 @media (max-width: 515px){
@@ -771,12 +820,14 @@
 
 }
 
-@media (max-width: 473px){
+@media (max-width: 480px){
     .home-page__white-line{
         background: url("../img/polygon.svg") center no-repeat;
         padding-top: 24px;
     }
+}
 
+@media (max-width: 473px){
     .header-nav__item_logo{
         width: 29%;
         margin: auto;
@@ -911,7 +962,7 @@
     }
 }
 
-@media (max-width: 452px){
+@media (max-width: 463px){
     .home-page__white-line{
         background: url("../img/polygon.svg") center no-repeat;
         padding-top: 23px;
@@ -925,7 +976,7 @@
     }
 }
 
-@media (max-width: 410px){
+@media (max-width: 412px){
     .home-page{
         background: url("../img/main.jpg") no-repeat;
         max-height: 100%;
@@ -1175,7 +1226,7 @@
 
 }
 
-@media (max-width: 368px){
+@media (max-width: 379px){
     .home-page__white-line{
         background: url("../img/polygon.svg") center no-repeat;
         padding-top: 18px;
