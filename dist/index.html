@@ -13,32 +13,33 @@
 </head>
 
 
-<body>
+<body id="main">
     <header>
         <nav>
             <ul class="header-nav">
                 <li class="header-nav__item header-nav__item_left">
-                    <a href="https://github.com" target="blank" class="link">ИНФОРМАЦИЯ</a>
+                    <a href="#town" class="link">НАШ ГОРОДОК</a>
                 </li>
 
                 <li class="header-nav__item header-nav__item_left-center">
-                    <a href="https://github.com" target="blank" class="link">ФОТО И ВИДЕО</a>
+                    <a href="#bridge" class="link">МОСТ ДЬЯВОЛА</a>
                 </li>
 
                 <li class="header-nav__item header-nav__item_logo">
-                    <a href="https://github.com" target="blank">
+                    <a href="#main">
                         <img src="img/logo.svg" alt=""></img></a>
                 </li>
                 <li class="header-nav__item header-nav__item_right-center">
-                    <a href="https://github.com" target="blank" class="link">КАРТА ШТАТА</a>
+                    <a href="#form" class="link">ФОРМА ОТПРАВКИ</a>
                 </li>
 
                 <li class="header-nav__item header-nav__item_right">
-                    <a href="https://github.com" target="blank" class="link">ГОСТИНИЦЫ</a>
+                    <a href="#footer" class="link">ФУТЕР</a>
                 </li>
             </ul>
-            <ul class="burger">
-                <li class="burger-line"></li>
+            <ul class="burger" id="click">
+                <li class=" burger-line">
+                </li>
                 <li class="burger-line"></li>
                 <li class="burger-line"></li>
             </ul>
@@ -46,18 +47,30 @@
     </header>
 
 
-    <main>
+    <main">
+        <section class="burger-menu" id="burger">
+            <ul class="burger-menu__list">
+                <li class="da" id="burger-main"><a href="#main" class="link">Главная</a></li>
+                <li class="da" id="burger-town"><a href="#town" class="link">Наш городок</a></li>
+                <li class="da" id="burger-bridge"><a href="#bridge" class="link">Мост дьявола</a></li>
+                <li class="da" id="burger-form"><a href="#form" class="link">Форма отправки</a></li>
+                <li class="da" id="burger-footer"><a href="#footer" class="link">Футер</a></li>
+            </ul>
+            <div> <img src="../img/Vector.svg" alt="" class="burger-menu__back" id="img"></div>
+        </section>
+
         <h1>скрытый текст</h1>
         <section class="home-page">
             <div class="home-page__welcome"> <img src="../img/welcome.png" center alt="" class="home-page__img"></div>
             <div class="home-page__white-line"></div>
             <div class="home-page__white">
-                <h2 class="home-page__title">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
+                <h2 class="home-page__title">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ
+                    БОЛЬШЕГО!</h2>
                 <p class="home-page__subtitle">РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
             </div>
         </section>
 
-        <section class="photo">
+        <section class="photo" id="town">
             <div class="photo__right photo__right_blue">
                 <h2 class="photo__title">НАСТОЯЩИЙ<br>ГОРОДОК</h2>
                 <p class="photo__subtitle photo__subtitle_left">— №1 —</p>
@@ -86,7 +99,7 @@
             </ul>
         </section>
 
-        <section class="photo">
+        <section class="photo" id="bridge">
             <div class="photo__bg photo__bg_left"></div>
             <div class="photo__left photo__left_blue">
                 <h2 class="photo__title">ТАМ ЕСТЬ,<br>МОСТ ДЬЯВОЛА</h2>
@@ -123,7 +136,7 @@
                 </p>
             </section>
 
-            <section class="form">
+            <section class="form" id="form">
                 <form class="form__base">
                     <h2 class="form__top-bg">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
                     <div class="form__white-bg">
@@ -178,30 +191,32 @@
                 </form>
             </section>
         </section>
-    </main>
+        </main>
 
 
-    <footer class="footer">
-        <address class="footer__data">#VISITSEDONA<br>
-            <a href="tel:+7(495) 666-02-66" class="link_phone">ТЕЛ: +7(495) 666-02-66</a>
-        </address>
-        <ul class="footer__icons">
-            <li><a class="footer__icons footer__icons_left" href="https://twitter.com/?lang=ru" target="blank">
-                    <img src="img/icons-1.png" alt=""></a>
-            </li>
-            <li><a class="footer__icons footer__icons_center" href="https://ru-ru.facebook.com" target="blank">
-                    <img src="img/icons-2.png" alt=""></a>
-            </li>
-            <li><a class="footer__icons footer__icons_right" href="https://www.youtube.com" target="blank">
-                    <img src="img/icons-3.png" alt=""></a>
-            </li>
-        </ul>
-        <div class="footer__html-academy">
-            <p class="footer__text">WEBSITE BY</p>
-            <a class="footer__logo" href="https://htmlacademy.ru" target="blank">
-                <img src="img/footer__logo.png" alt=""></a>
-        </div>
-    </footer>
+        <footer class="footer" id="footer">
+            <address class="footer__data">#VISITSEDONA<br>
+                <a href="tel:+7(495) 666-02-66" class="link_phone">ТЕЛ: +7(495) 666-02-66</a>
+            </address>
+            <ul class="footer__icons">
+                <li><a class="footer__icons footer__icons_left" href="https://twitter.com/?lang=ru" target="blank">
+                        <img src="img/icons-1.png" alt=""></a>
+                </li>
+                <li><a class="footer__icons footer__icons_center" href="https://ru-ru.facebook.com" target="blank">
+                        <img src="img/icons-2.png" alt=""></a>
+                </li>
+                <li><a class="footer__icons footer__icons_right" href="https://www.youtube.com" target="blank">
+                        <img src="img/icons-3.png" alt=""></a>
+                </li>
+            </ul>
+            <div class="footer__html-academy">
+                <p class="footer__text">WEBSITE BY</p>
+                <a class="footer__logo" href="https://htmlacademy.ru" target="blank">
+                    <img src="img/footer__logo.png" alt=""></a>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
 
 </body>
 
