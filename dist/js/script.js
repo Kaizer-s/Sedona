@@ -18,31 +18,11 @@ function burgerNone() {
     burger.style.display = "none";
 }
 
-function burgerMainNone() {
-    burger.style.display = "none";
-}
-
-function burgerTownNone() {
-    burger.style.display = "none";
-}
-
-function burgerBridgeNone() {
-    burger.style.display = "none";
-}
-
-function burgerFormNone() {
-    burger.style.display = "none";
-}
-
-function burgerFooterNone() {
-    burger.style.display = "none";
-}
-
 
 burgerLine.addEventListener("click", burgerFlex);
 burgerImg.addEventListener("click", burgerNone);
-burgerMain.addEventListener("click", burgerMainNone);
-burgerTown.addEventListener("click", burgerTownNone);
-burgerBridge.addEventListener("click", burgerBridgeNone);
-burgerForm.addEventListener("click", burgerFormNone);
-burgerFooter.addEventListener("click", burgerFooterNone);
+burgerMain.addEventListener("click", burgerNone);
+burgerTown.addEventListener("click", burgerNone);
+burgerBridge.addEventListener("click", burgerNone);
+burgerForm.addEventListener("click", burgerNone);
+burgerFooter.addEventListener("click", burgerNone);
