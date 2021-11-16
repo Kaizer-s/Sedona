@@ -1,5 +1,19 @@
 "use strict"
 
+const anchors = document.querySelectorAll('a[href^="#"]');
+
+for (let anchor of anchors) {          //Образец кода с форума
+    anchor.addEventListener("click", function (event) {
+        event.preventDefault()
+        const goto = anchor.hasAttribute('href') ? anchor.getAttribute('href') : 'body'
+        document.querySelector(goto).scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        })
+    })
+}
+
+
 const burger = document.getElementById("burger");
 const burgerLine = document.getElementById("click");
 const burgerImg = document.getElementById("img");
